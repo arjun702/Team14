@@ -362,6 +362,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/PickedUp.cs"
+"Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/CameraPointer.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/CardboardStartup.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/CharacterMovement.cs"
@@ -375,8 +377,10 @@
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/XRCardboard/XRCardboardInputSettings.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/XRCardboard/XRCardboardReticle.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/XRCardboard/XRCardboardStartup.cs"
-"Assets/ThrowDart.cs"
-"Assets/VideoPlayerController.cs"
+"Assets/Scripts/Colors.cs"
+"Assets/Scripts/RayCastPointer.cs"
+"Assets/Scripts/ThrowDart.cs"
+"Assets/Scripts/VideoPlayerController.cs"
 -langversion:9.0
 
 /deterministic
