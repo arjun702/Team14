@@ -10,6 +10,7 @@ public class RayCastPointer : MonoBehaviour
 
     private LineRenderer lineRenderer;
     public GameObject Hand;
+    public GameObject HandPivot;
     public GameObject Character;
     public GameObject Dart;
 
@@ -49,7 +50,7 @@ public class RayCastPointer : MonoBehaviour
 
         // Vector3 directionToCamera = cameraPosition - transform.position;
 
-        // Hand.transform.LookAt(cameraPosition, -1*Camera.main.transform.forward);
+        HandPivot.transform.rotation = Camera.main.transform.rotation;
 
         // Get the hand's position
         Vector3 handPosition = Hand.transform.position;
@@ -67,6 +68,7 @@ public class RayCastPointer : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(handPosition, handForward, out hit, maxRayDistance))
         {
+            // End the last point of ray at object hit point
             // rayEnd = hit.point;
 
             rayPivot = rayEnd;
@@ -84,6 +86,25 @@ public class RayCastPointer : MonoBehaviour
             if (outline != null)
             {
                 outline.enabled = true;
+            }
+
+            // Disable Outlines
+            if(hitObject.tag != "Outline Objects")
+            {
+                // Find all game objects with the tag "OutlineObjects"
+                GameObject[] outlineObjects = GameObject.FindGameObjectsWithTag("Outline Objects");
+
+                // Loop through each object found
+                foreach (GameObject obj in outlineObjects)
+                {
+                    // Check if the object has an "Outline" component
+                    Outline outlineComponent = obj.GetComponent<Outline>();
+                    if (outlineComponent != null)
+                    {
+                        // Disable the "Outline" component
+                        outlineComponent.enabled = false;
+                    }
+                }
             }
 
             if(hitObject.name == "Dart" && Input.GetKeyDown(KeyCode.P))
