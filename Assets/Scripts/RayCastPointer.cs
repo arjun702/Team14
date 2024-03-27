@@ -50,6 +50,7 @@ public class RayCastPointer : MonoBehaviour
 
         // Vector3 directionToCamera = cameraPosition - transform.position;
 
+        // Make the hand face same direction as camera
         HandPivot.transform.rotation = Camera.main.transform.rotation;
 
         // Get the hand's position
