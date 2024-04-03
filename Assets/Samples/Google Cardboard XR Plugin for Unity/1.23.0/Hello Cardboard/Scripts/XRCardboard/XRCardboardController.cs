@@ -11,8 +11,8 @@ public class XRCardboardController : MonoBehaviour
 {
     [SerializeField]
     Transform cameraTransform = default;
-    [SerializeField]
-    GameObject vrGroup = default;
+    // [SerializeField]
+    // GameObject vrGroup = default;
     [SerializeField]
     GameObject standardGroup = default;
     [SerializeField]
@@ -129,7 +129,7 @@ public class XRCardboardController : MonoBehaviour
     void SetObjects(bool vrActive)
     {
         standardGroup.SetActive(!vrActive);
-        vrGroup.SetActive(vrActive);
+        //vrGroup.SetActive(vrActive);
         standardInputModule.enabled = !vrActive;
         vrInputModule.enabled = vrActive;
         poseDriver.enabled = vrActive;

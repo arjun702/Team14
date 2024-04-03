@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Myproject"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature
+19-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+20        android:glEsVersion="0x00030000"
+20-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+21        android:required="true" />
+21-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:13:9-32
+22
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+23-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+24
+25    <uses-feature
+25-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+34
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:15:5-65
+35-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:15:22-62
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:16:5-81
+36-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:16:22-78
+37    <uses-permission android:name="android.permission.NFC" />
+37-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:18:5-62
+37-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:18:22-59
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39
+40    <application
+40-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.7.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\f243f87f287fb4f4052bd069a9b71980\core-1.7.0\AndroidManifest.xml:24:18-86
+42        android:extractNativeLibs="true"
+42-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:18-50
+43        android:icon="@mipmap/app_icon"
+43-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+44        android:label="@string/app_name" >
+44-->E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+45        <activity
+45-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-48:20
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-66
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-194
+48            android:exported="true"
+48-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-36
+49            android:hardwareAccelerated="false"
+49-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-48
+50            android:launchMode="singleTask"
+50-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-44
+51            android:resizeableActivity="false"
+51-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-47
+52            android:screenOrientation="landscape"
+52-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-50
+53            android:theme="@style/UnityThemeSelector" >
+53-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-54
+54            <intent-filter>
+54-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-40:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-69
+55-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-77
+57-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:27-74
+58            </intent-filter>
+59
+60            <meta-data
+60-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44:40
+61                android:name="unityplayer.UnityActivity"
+61-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-57
+62                android:value="true" />
+62-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-37
+63            <meta-data
+63-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+64                android:name="android.notch_support"
+64-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-53
+65                android:value="true" />
+65-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+66        </activity>
+67
+68        <meta-data
+68-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52:33
+69            android:name="unity.splash-mode"
+69-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-45
+70            android:value="0" />
+70-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-30
+71        <meta-data
+71-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:36
+72            android:name="unity.splash-enable"
+72-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
+73            android:value="True" />
+73-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-33
+74        <meta-data
+74-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+75            android:name="unity.launch-fullscreen"
+75-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-51
+76            android:value="True" />
+76-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+77        <meta-data
+77-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:37
+78            android:name="unity.allow-resizable-window"
+78-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-56
+79            android:value="False" />
+79-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-34
+80        <meta-data
+80-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:50
+81            android:name="notch.config"
+81-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-40
+82            android:value="portrait|landscape" />
+82-->[:unityLibrary] E:\Masters\Spring 2024\VR\VR_Projects\Team14\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+83
+84        <activity
+84-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:21:9-25:66
+85            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+85-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:22:13-74
+86            android:exported="false"
+86-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:23:13-37
+87            android:label="@string/title_activity_qr_code_capture"
+87-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:24:13-67
+88            android:theme="@style/Theme.AppCompat.NoActionBar" />
+88-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:25:13-63
+89        <!--
+90          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+91          NFC tag is detected.
+92        -->
+93        <activity
+93-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:31:9-44:20
+94            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+94-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:32:13-77
+95            android:exported="true"
+95-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:33:13-36
+96            android:label="@string/headset_detection_activity_title" >
+96-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:34:13-69
+97
+98            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+99            <intent-filter>
+99-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:37:13-43:29
+100                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+100-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:38:17-77
+100-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:38:25-74
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:40:17-76
+102-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:40:27-73
+103
+104                <data android:scheme="cardboard" />
+104-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:42:17-52
+104-->[:GfxPluginCardboard:] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\7f7de8c1cde6fbb6c8123adc7b50941d\jetified-GfxPluginCardboard\AndroidManifest.xml:42:23-49
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+118            android:authorities="com.DefaultCompany.Myproject.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\niraj\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>

@@ -81,6 +81,12 @@ public class RayCastPointer : MonoBehaviour
             GameObject hitObject = hit.collider.gameObject;
             Debug.Log("Hit Object: " + hitObject.name);
 
+            if (hitObject.GetComponent<Graphic>() != null)
+            {
+                Debug.Log("UI Element Hit: " + hitObject.name);
+                // You can perform UI-specific actions here
+            }
+
             // Enable the Outline component if it exists
             Outline outline = hitObject.GetComponent<Outline>();
             if (outline != null)
