@@ -343,13 +343,13 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssetId.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssetIdRemapBuilderEditor.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssetIdRemapBuilderTreeView.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssetIdRemapEditor.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/AssetTreeView.cs"
-"Library/PackageCache/com.unity.probuilder@5.2.2/AssetIdRemapUtility/Editor/PackageImporter.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssetId.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssetIdRemapBuilderEditor.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssetIdRemapBuilderTreeView.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssetIdRemapEditor.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/AssetTreeView.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/AssetIdRemapUtility/Editor/PackageImporter.cs"
 -langversion:9.0
 
 /deterministic

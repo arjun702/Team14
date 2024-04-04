@@ -345,7 +345,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.probuilder@5.2.2/Addons/Fbx.cs"
+"Library/PackageCache/com.unity.probuilder@5.0.7/Addons/Fbx.cs"
 -langversion:9.0
 
 /deterministic
