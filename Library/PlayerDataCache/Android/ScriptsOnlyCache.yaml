@@ -16,11 +16,21 @@ ScriptsOnlyBuild:
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
     - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
     - UnityEngine.Rendering.PostProcessing.PostProcessLayer
     - UnityEngine.Rendering.PostProcessing.PostProcessProfile
     - UnityEngine.Rendering.PostProcessing.PostProcessResources
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -152,69 +162,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1656}
-    - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1658}
     - Class: 114
       Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 2366}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 2834}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3850}
+      Script: {instanceID: 3468}
     - Class: 114
-      Script: {instanceID: 3864}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 3906}
+      Script: {instanceID: 3868}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 3910}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 4832}
+      Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 5144}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5594}
     - Class: 114
-      Script: {instanceID: 6286}
+      Script: {instanceID: 5660}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 6290}
     - Class: 114
-      Script: {instanceID: 6452}
+      Script: {instanceID: 6352}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6456}
     - Class: 114
-      Script: {instanceID: 6602}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 6826}
+      Script: {instanceID: 6606}
     - Class: 114
-      Script: {instanceID: 7344}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 7540}
+      Script: {instanceID: 7348}
     - Class: 114
-      Script: {instanceID: 7648}
+      Script: {instanceID: 7544}
     - Class: 114
-      Script: {instanceID: 7650}
+      Script: {instanceID: 7652}
     - Class: 114
-      Script: {instanceID: 8018}
+      Script: {instanceID: 7654}
     - Class: 114
-      Script: {instanceID: 8060}
+      Script: {instanceID: 8022}
     - Class: 114
-      Script: {instanceID: 8706}
+      Script: {instanceID: 8064}
+    - Class: 114
+      Script: {instanceID: 8710}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1210,7 +1220,7 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71cbe251242e2384048d8f3e72c8d944
+      Hash: 0b6d36c1830162ffd53c8dcd23cb382b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterMovement
@@ -1343,4 +1353,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Project.unity
-  playerPath: E:/Masters/Spring 2024/VR/VR_Projects/Team14/APKs/v8_test_character_height.apk
+  playerPath: E:/Masters/Spring 2024/VR/VR_Projects/Team14/APKs/v9_test_character_height.apk

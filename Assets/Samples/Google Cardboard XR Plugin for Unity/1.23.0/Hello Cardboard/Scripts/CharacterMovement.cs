@@ -11,19 +11,23 @@ public class CharacterMovement : MonoBehaviour
     public GameObject cameraObj;
     [Tooltip("Should be checked if using the Bluetooth Controller to move. If using keyboard, leave this unchecked.")]
     public bool joyStickMode;
-    [Tooltip("Rotation speed of the character.")]
-    public float rotationSpeed = 15f;
+    public string[] buttonKeywords = new string[15];
 
     // Start is called before the first frame update
     void Start()
     {
         charCntrl = GetComponent<CharacterController>();
+
+        for (int i = 0; i < buttonKeywords.Length; i++)
+        {
+            buttonKeywords[i] = "js" + i;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Get horizontal and vertical movements
+        //Get horizontal and Vertical movements
         float horComp = Input.GetAxis("Horizontal");
         float vertComp = Input.GetAxis("Vertical");
 
@@ -35,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
 
         Vector3 moveVect = Vector3.zero;
 
-        // Get look direction
+        //Get look Direction
         Vector3 cameraLook = cameraObj.transform.forward;
         cameraLook.y = 0f;
         cameraLook = cameraLook.normalized;
@@ -47,14 +51,10 @@ public class CharacterMovement : MonoBehaviour
         moveVect += forwardVect * vertComp;
 
         moveVect *= speed;
-
-        // Rotate the character to face the same direction as the camera in the X and Z plane
-        if (moveVect.magnitude > 0.1f || Input.GetAxis("Mouse X") != 0) // Check if moving or camera rotates
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(forwardVect.x, 0f, forwardVect.z));
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
-        }
+     
 
         charCntrl.SimpleMove(moveVect);
+
+
     }
 }
