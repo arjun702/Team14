@@ -26,7 +26,7 @@ public class ThrowDart : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        FreezePosition();
+        
         
         // Check if the collision is with the dart board
         // if (collision.gameObject.CompareTag(dartBoardTag))
@@ -46,6 +46,8 @@ public class ThrowDart : MonoBehaviour
         {
             if (collision.gameObject.CompareTag(dartBoardTag))
             {
+                FreezePosition();
+                
                 // Calculate the vector from the center of the collided object to the contact point
                 Vector3 vectorToContactPoint = contact.point - collision.transform.position;
                     
